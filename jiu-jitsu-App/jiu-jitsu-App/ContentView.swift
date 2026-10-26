@@ -121,7 +121,7 @@ final class JJVideoStore: ObservableObject {
     }
 }
 
-// MARK: - Main Navigation
+// MARK: - Main Navigation (Menu Principal)
 
 struct ContentView: View {
     @AppStorage("appLanguage") private var appLanguage = "pt-BR"
@@ -862,4 +862,8 @@ showingConfirmation = true
        }
     
    }
+
+#Preview {
+    ContentView()
+}
 
